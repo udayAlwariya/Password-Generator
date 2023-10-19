@@ -26,7 +26,7 @@ const Generate = useCallback(()=>{
   
  }
  SetPassword(pass)
-},[length,number,character,password]) //cache it when there is any change in variable when we run the function.
+},[length,number,character,password]) //cache isneuebv it when there is any change in variable when we run the function.
 useEffect(()=>{
   Generate()
 
